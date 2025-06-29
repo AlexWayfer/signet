@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency "addressable", "~> 2.3"
   gem.add_runtime_dependency "faraday", "~> 0.9"
-  gem.add_runtime_dependency "jwt", ">= 1.5", "< 3.0"
+  gem.add_runtime_dependency "jwt", ">= 1.5", "<= 3.1.2"
   gem.add_runtime_dependency "multi_json", "~> 1.10"
 
   gem.add_development_dependency "google-style", "~> 0.3"
