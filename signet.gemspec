@@ -33,7 +33,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "launchy", "~> 2.4"
   gem.add_development_dependency "rake", "~> 12.0"
   gem.add_development_dependency "rspec", "~> 3.1"
-  gem.add_development_dependency "simplecov", "~> 0.9"
+  gem.add_development_dependency "simplecov", "~> 1.3"
   gem.add_development_dependency "yard", "~> 0.9", ">= 0.9.12"
 
   if gem.respond_to? :metadata
